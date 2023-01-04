@@ -1,0 +1,1 @@
+{"learning_rate": 0.05, "weight_decay": 1e-4, "margin": 0.0075, "ranking_loss_coef": 0.125}
