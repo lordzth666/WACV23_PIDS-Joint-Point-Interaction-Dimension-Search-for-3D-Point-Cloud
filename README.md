@@ -1,11 +1,13 @@
 ### [WACV'23] PIDS: Joint Interaction-Dimension Search for 3D Point Cloud
 
-This is the official implementation of our WACV'23 paper, "PIDS: Joint Interaction-Dimension Search for 3D Point Cloud". The framework is based developed upon PyTorch.
+This is the official implementation of our WACV'23 paper, "PIDS: Joint Interaction-Dimension Search for 3D Point Cloud" [https://arxiv.org/abs/2211.15759]. The framework is based developed upon PyTorch.
 
 #### Highlights
 - Point-operators that compose both point interactions and point dimensions are implemented under `pids_core/models/blocks.py`. The first-order point interaction is implemented under `pids_core/models/attention.py`。
-- Dense-Sparse predictor that intuited by the idea of "Wide & Deep Learning" to learn a better architecture prediction. The predictor is called in `pids/predictor/predictor_model_zoo.py` and implemented in `nasflow/algo/surrogate/predictor`.
+![Point Operator](assets/point_operator.png)
 
+- Dense-Sparse predictor that intuited by the idea of "Wide & Deep Learning" to learn a better architecture prediction. The predictor is called in `pids/predictor/predictor_model_zoo.py` and implemented in `nasflow/algo/surrogate/predictor`.
+![Dense Sparse Predictor](assets/DSPredictor.png)
 
 #### Starter Guide
 

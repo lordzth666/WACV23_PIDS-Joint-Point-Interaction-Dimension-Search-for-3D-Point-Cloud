@@ -736,7 +736,7 @@ class GoldenSemanticKittiConfig(Mv2SemanticKittiConfig):
     batch_norm_epsilon = 1e-3
 
     # Weight decay
-    weight_decay = 3e-4
+    weight_decay = 1e-4
 
     # Maximal number of epochs
     max_epoch = 300

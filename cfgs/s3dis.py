@@ -198,7 +198,7 @@ class GoldenS3DISConfig(Mv2S3DISConfig):
     saving = True
     saving_path = None
 
-    weight_decay = 3e-4
+    weight_decay = 1e-4
     dropout = 0.5
     drop_connect = 0.0
     label_smoothing = 0.0
