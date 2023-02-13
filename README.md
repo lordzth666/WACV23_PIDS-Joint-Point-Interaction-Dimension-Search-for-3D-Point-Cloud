@@ -1,6 +1,6 @@
 ## [WACV'23] PIDS: Joint Interaction-Dimension Search for 3D Point Cloud
 
-This is the official implementation of our WACV'23 paper, "PIDS: Joint Interaction-Dimension Search for 3D Point Cloud" [https://arxiv.org/abs/2211.15759]. The framework is based developed upon PyTorch.
+This is the official implementation of our WACV'23 paper, "PIDS: Joint Interaction-Dimension Search for 3D Point Cloud" [https://openaccess.thecvf.com/content/WACV2023/html/Zhang_PIDS_Joint_Point_Interaction-Dimension_Search_for_3D_Point_Cloud_WACV_2023_paper.html]. The framework is based developed upon PyTorch.
 
 ### Highlights
 - Point-operators that compose both point interactions and point dimensions are implemented under `pids_core/models/blocks.py`. The first-order point interaction is implemented under `pids_core/models/attention.py`.
